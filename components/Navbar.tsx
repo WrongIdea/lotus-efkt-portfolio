@@ -30,7 +30,7 @@ export default function Navbar() {
             About
           </a>
           <a
-            href="https://play.google.com/store/apps/developer?id=Lotus+Effect"
+            href="https://play.google.com/store/apps/developer?id=LotusEffect"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-1.5 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
