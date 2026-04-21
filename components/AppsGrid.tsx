@@ -7,7 +7,7 @@ const apps: App[] = [
     description:
       "A rich collection of Setswana proverbs with meanings, usage examples, and cultural context. Preserve and explore the wisdom passed down through generations in Botswana.",
     category: "Language & Culture",
-    icon: "📖",
+    image: "/apps/diane-le-maele.png",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.lotuseffect.diane_le_maele",
   },
@@ -17,7 +17,7 @@ const apps: App[] = [
     description:
       "A powerful Setswana–English dictionary with translations, pronunciation guides, and example sentences. Bridge the language gap and learn Setswana with ease.",
     category: "Language & Culture",
-    icon: "🌍",
+    image: "/apps/setswana-english.png",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.lotuseffect.SetswanaPro",
   },
@@ -27,7 +27,7 @@ const apps: App[] = [
     description:
       "Master the Sicilian Defense — chess's most popular and dynamic opening. Study key variations, traps, and grandmaster ideas with interactive move-by-move lessons.",
     category: "Chess",
-    icon: "♟️",
+    image: "/apps/chessforgepng.png",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.lotuseffect.siciliandefense",
   },
@@ -37,7 +37,7 @@ const apps: App[] = [
     description:
       "Deep-dive into the solid Caro-Kann Defense with structured lessons, tactical exercises, and annotated games. A must-have for club players seeking a reliable response to 1.e4.",
     category: "Chess",
-    icon: "♜",
+    image: "/apps/caro-kann.png",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.lotuseffect.carokann",
   },
@@ -47,7 +47,7 @@ const apps: App[] = [
     description:
       "Learn the sharp and aggressive Scotch Gambit with annotated games, key tactical motifs, and practical exercises. Attack from move one and catch opponents off guard.",
     category: "Chess",
-    icon: "⚔️",
+    image: "/apps/scotch-gambit.png",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.lotuseffect.chesstutor",
   },
@@ -57,7 +57,7 @@ const apps: App[] = [
     description:
       "A clean, fast bond and loan calculator built for South African homebuyers. Calculate monthly repayments, total interest, and view full amortization schedules instantly.",
     category: "Finance",
-    icon: "🏠",
+    image: "/apps/bondcalc.png",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.bondcalc.app",
   },
