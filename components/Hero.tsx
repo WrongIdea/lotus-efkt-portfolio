@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className="relative pt-40 pb-28 px-6 overflow-hidden">
@@ -29,12 +31,12 @@ export default function Hero() {
           >
             View Apps
           </a>
-          <a
-            href="#about"
-            className="px-6 py-3 rounded-full border border-zinc-700 hover:border-zinc-500 text-zinc-300 hover:text-white font-semibold transition-colors"
+          <Link
+            href="/contact"
+            className="px-6 py-3 rounded-full border border-zinc-700 hover:border-indigo-500 hover:bg-indigo-600/10 text-zinc-300 hover:text-white font-semibold transition-colors"
           >
-            About Me
-          </a>
+            Hire Me →
+          </Link>
         </div>
 
         {/* Stats row */}

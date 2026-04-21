@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,20 +24,26 @@ export default function Navbar() {
           Lotus<span className="text-indigo-400">Efkt</span>
         </span>
         <div className="flex items-center gap-6 text-sm text-zinc-400">
-          <a href="#apps" className="hover:text-white transition-colors">
+          <a href="/#apps" className="hover:text-white transition-colors">
             Apps
           </a>
-          <a href="#about" className="hover:text-white transition-colors">
+          <a href="/#about" className="hover:text-white transition-colors">
             About
           </a>
           <a
             href="https://play.google.com/store/apps/developer?id=LotusEffect"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-1.5 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
+            className="hover:text-white transition-colors"
           >
             Play Store
           </a>
+          <Link
+            href="/contact"
+            className="px-4 py-1.5 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white transition-colors"
+          >
+            Hire Me
+          </Link>
         </div>
       </nav>
     </header>
