@@ -8,7 +8,7 @@ export default function Footer() {
           rights reserved.
         </span>
         <a
-          href="https://play.google.com/store/apps/developer?id=Lotus+Effect"
+          href="https://play.google.com/store/apps/developer?id=LotusEffect"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-indigo-400 transition-colors"

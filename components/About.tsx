@@ -47,7 +47,7 @@ export default function About() {
 
           <div className="mt-8 pt-8 border-t border-zinc-800 flex items-center gap-4">
             <a
-              href="https://play.google.com/store/apps/developer?id=Lotus+Effect"
+              href="https://play.google.com/store/apps/developer?id=LotusEffect"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors"
