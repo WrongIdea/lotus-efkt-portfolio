@@ -16,15 +16,16 @@ export default function About() {
             Who is Lotus Efkt?
           </h2>
           <p className="text-zinc-400 leading-relaxed mb-4">
-            I&apos;m an independent Android developer from South Africa, passionate
-            about building apps that matter. My work spans cultural preservation
-            — keeping Setswana language and proverbs alive digitally — to chess
-            education and practical finance tools.
+            I&apos;m an independent Android and web developer from South Africa,
+            passionate about building things that matter. My Android work spans
+            cultural preservation — keeping Setswana language and proverbs alive
+            digitally — to chess education and practical finance tools.
           </p>
           <p className="text-zinc-400 leading-relaxed">
-            Every app I build is focused on simplicity, speed, and real-world
-            usefulness. I work primarily with Flutter and Firebase to ship
-            cross-platform apps quickly without compromising on quality.
+            On the web side I build fast, modern sites and web apps using
+            Next.js, React, and TypeScript. Whether it&apos;s a portfolio, a
+            landing page, or a full-stack web application — I focus on
+            simplicity, performance, and real-world usefulness.
           </p>
         </div>
 
