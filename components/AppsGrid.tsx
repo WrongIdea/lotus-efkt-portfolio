@@ -74,7 +74,7 @@ export default function AppsGrid() {
           <h2 className="text-4xl font-extrabold text-white">Published Apps</h2>
           <p className="mt-3 text-zinc-400 max-w-lg">
             Six apps across language preservation, chess education, and personal
-            finance — all available on Google Play.
+            finance - all available on Google Play.
           </p>
         </div>
 

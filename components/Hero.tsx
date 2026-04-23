@@ -20,7 +20,7 @@ export default function Hero() {
         </h1>
 
         <p className="animate-fade-up delay-200 max-w-xl text-lg text-zinc-400 leading-relaxed mb-10">
-          Building purposeful Android apps and modern web experiences — from
+          Building purposeful Android apps and modern web experiences - from
           preserving Setswana culture to sharpening chess minds, simplifying
           home finance, and crafting fast, polished websites.
         </p>
