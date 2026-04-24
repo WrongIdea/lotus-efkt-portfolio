@@ -13,15 +13,18 @@ export default function ContactForm() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
+    data.append("access_key", "3195d94a-bd16-4e43-b3dc-fa7baa2a245b");
+
     try {
-      // Replace YOUR_FORM_ID with the ID from formspree.io/new
-      const res = await fetch("https://formspree.io/f/xvzdblna", {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         body: data,
         headers: { Accept: "application/json" },
       });
 
-      if (res.ok) {
+      const json = await res.json();
+
+      if (res.ok && json.success) {
         setStatus("success");
         form.reset();
       } else {
